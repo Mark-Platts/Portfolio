@@ -89,6 +89,40 @@ footer {
   bottom: 0;
 }
 
+.parallax {
+  position:relative;
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+#imageContainer1 {
+  background-image: url("./images/hecatonicosachoron.png");
+  min-height: 400px;
+}
+
+
+#imageContainer2 {
+  background-image: url("./images/ISWF.png");
+  min-height: 400px;
+  opacity: 80%;
+}
+
+#imageContainer3 {
+  background-image: url("./images/hypercube.png");
+  min-height: 400px;
+  opacity: 80%;
+}
+
 /* @media only screen and (max-width: 500px) {
 
 } */
