@@ -20,6 +20,7 @@ nav {
   flex-wrap: wrap;
   align-content: center;
   background-color: #353535;
+  border-bottom: 2px solid #575757;
   height: 40px;
 }
 
@@ -36,7 +37,7 @@ nav a:hover {
 
 #above {
   background-color: #243b53;
-  margin: 20px auto;
+  margin: 0 auto;
   line-height: 1.2;
   padding: 12px 20px;
 }
@@ -65,7 +66,7 @@ h1 {
   background-color: #243b53;
   height: 800px;
   width: 380px;
-  margin: 10px 20px;
+  margin: 20px 20px;
   line-height: 1.2;
 }
 
@@ -78,6 +79,9 @@ h1 {
   margin: 0 auto;
 }
 
+#amMain article {
+  background-color: #243b53;
+}
 
 footer {
   background-color: #353535;
