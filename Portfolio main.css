@@ -79,14 +79,18 @@ h1 {
   margin: 0 auto;
 }
 
-#amMain article {
-  background-color: #243b53;
-}
 
 footer {
   background-color: #353535;
   height: 40px;
   bottom: 0;
+}
+
+/* about me only */
+
+#amMain article {
+  background-color: #243b53;
+  padding: 20px;
 }
 
 .parallax {
@@ -99,30 +103,42 @@ footer {
   background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
-#imageContainer1 {
-  background-image: url("./images/hecatonicosachoron.png");
-  min-height: 400px;
-}
 
 
 #imageContainer2 {
+  background-image: url("./images/hecatonicosachoron.png");
+  min-height: 800px;
+}
+
+
+#imageContainer1 {
   background-image: url("./images/ISWF.png");
-  min-height: 400px;
+  min-height: 800px;
   opacity: 80%;
 }
 
 #imageContainer3 {
   background-image: url("./images/hypercube.png");
-  min-height: 400px;
+  min-height: 800px;
   opacity: 80%;
 }
 
-/* @media only screen and (max-width: 500px) {
+/* CV only */
 
-} */
+#CVMain article {
+  background-color: #243b53;
+  margin: 20px 100px;
+  padding: 20px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  #CVMain article {
+    background-color: #243b53;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+}
