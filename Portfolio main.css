@@ -11,6 +11,8 @@
 
 body  {
   background-color: #110A08;
+  height: 100%;
+  min-height: 100%;
 }
 
 header {
@@ -32,9 +34,10 @@ nav {
 #main {
   position: relative;
   top: 42px;
-  min-height: 100%;
-  margin-bottom: 80px;
+  min-height: calc(100vh - 70px);
+  margin-bottom: 30px;
 }
+
 
 p, li {
   font-family: 'Literata', serif;
@@ -103,8 +106,13 @@ h1 {
 footer {
   background-color: #353535;
   height: 40px;
-  margin-top: -40px;
 }
+
+#explanation {
+  margin: 10px;
+  padding: 10px;
+}
+
 
 /* about me only */
 
