@@ -123,6 +123,11 @@ footer {
   padding: 20px;
 }
 
+#aboutMeContents{
+  padding: 20px;
+  text-align: center;
+}
+
 .parallax {
   position:relative;
   min-height: 500px;
@@ -134,20 +139,35 @@ footer {
 }
 
 
-
-#imageContainer2 {
-  background-image: url("./images/hecatonicosachoron.png");
-  min-height: 800px;
-}
-
-
 #imageContainer1 {
   background-image: url("./images/ISWF.png");
   min-height: 800px;
   opacity: 80%;
 }
 
+#imageContainer2 {
+  background-image: url("./images/hecatonicosachoron.png");
+  min-height: 800px;
+}
+
 #imageContainer3 {
+  background-image: url("./images/hypercube.png");
+  min-height: 800px;
+  opacity: 80%;
+}
+
+#imageContainer4 {
+  background-image: url("./images/ISWF.png");
+  min-height: 800px;
+  opacity: 80%;
+}
+
+#imageContainer5 {
+  background-image: url("./images/hecatonicosachoron.png");
+  min-height: 800px;
+}
+
+#imageContainer6 {
   background-image: url("./images/hypercube.png");
   min-height: 800px;
   opacity: 80%;
@@ -174,6 +194,11 @@ footer {
 #CVGrid p, h1, h2, h3 {
   /* font-family: 'Roboto Mono', monospace; */
   font-family: 'Roboto', sans-serif;
+  padding: 5px;
+}
+
+#CVGrid h2 {
+  background-color: #2c2c2c;
 }
 
 #CVGrid article {
@@ -204,11 +229,26 @@ footer {
     background-attachment: scroll;
   }
 
-  #CVMain article {
+  /* #CVMain article {
     background-color: #243b53;
     margin: 20px 20px;
     padding: 20px;
+  } */
+
+}
+
+@media only screen and (max-device-width: 600px) {
+  #CVGrid {
+    display: grid;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    grid-gap: 10px 10px;
+    grid-template-columns: 100%;
+    grid-template-areas: "CVtitle"
+                         "CVright"
+                         "CVleft"
   }
+
 }
 
 
