@@ -94,6 +94,7 @@ h1 {
   width: 380px;
   margin: 20px 20px;
   line-height: 1.2;
+  border-radius: 5px;
 }
 
 #leftRightFlexWrap h1 {
@@ -111,7 +112,7 @@ footer {
 }
 
 #explanation {
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   padding: 10px;
 }
 
@@ -142,38 +143,40 @@ footer {
   background-size: cover;
 }
 
+.imageContainerHeight {
+  min-height: 600px;
+}
 
 #imageContainer1 {
-  background-image: url("./images/ISWF.png");
-  min-height: 800px;
+  background-image: url("./images/ISWM.png");
   opacity: 80%;
 }
 
 #imageContainer2 {
   background-image: url("./images/hecatonicosachoron.png");
-  min-height: 800px;
 }
 
 #imageContainer3 {
   background-image: url("./images/hypercube.png");
-  min-height: 800px;
   opacity: 80%;
 }
 
 #imageContainer4 {
-  background-image: url("./images/ISWF.png");
-  min-height: 800px;
+  background-image: url("./images/mandel.png");
   opacity: 80%;
 }
 
 #imageContainer5 {
-  background-image: url("./images/hecatonicosachoron.png");
-  min-height: 800px;
+  background-image: url("./images/shogi.png");
 }
 
 #imageContainer6 {
-  background-image: url("./images/hypercube.png");
-  min-height: 800px;
+  background-image: url("./images/cpu.png");
+  opacity: 80%;
+}
+
+#imageContainer7 {
+  background-image: url("./images/circuitWIP.png");
   opacity: 80%;
 }
 
@@ -221,6 +224,10 @@ footer {
   padding: 20px;
 }
 
+#CVleft h3 {
+  margin-top:10px;
+}
+
 #CVright {
   grid-area: CVright;
   background-color: #243b53;
@@ -228,7 +235,7 @@ footer {
 }
 
 #CVright h3 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 
@@ -259,6 +266,11 @@ footer {
     grid-template-areas: "CVtitle"
                          "CVright"
                          "CVleft"
+  }
+
+  #amMain article {
+    background-color: #243b53;
+    padding: 40px 20px;
   }
 
 }
